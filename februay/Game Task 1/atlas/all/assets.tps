@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>6</int>
         <key>texturePackerVersion</key>
-        <string>7.10.0</string>
+        <string>7.12.0</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -50,7 +50,7 @@
         <key>dxtCompressionMode</key>
         <enum type="SettingsBase::DxtCompressionMode">DXT_PERCEPTUAL</enum>
         <key>ditherType</key>
-        <enum type="SettingsBase::DitherType">NearestNeighbour</enum>
+        <enum type="SettingsBase::DitherType">PngQuantLow</enum>
         <key>backgroundColor</key>
         <uint>0</uint>
         <key>libGdx</key>
@@ -124,7 +124,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../../Task 2/app/src/main/assets/atlas/all.atlas</filename>
+                <filename>../../Task 1/app/src/main/assets/atlas/all.atlas</filename>
             </struct>
         </map>
         <key>multiPackMode</key>
@@ -173,16 +173,7 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">1.png</key>
-            <key type="filename">10.png</key>
-            <key type="filename">2.png</key>
-            <key type="filename">3.png</key>
-            <key type="filename">4.png</key>
-            <key type="filename">5.png</key>
-            <key type="filename">6.png</key>
-            <key type="filename">7.png</key>
-            <key type="filename">8.png</key>
-            <key type="filename">9.png</key>
+            <key type="filename">barel.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -191,24 +182,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>45,45,90,90</rect>
+                <rect>64,55,127,109</rect>
                 <key>scale9Paddings</key>
-                <rect>45,45,90,90</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">back.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>35,35,70,70</rect>
-                <key>scale9Paddings</key>
-                <rect>35,35,70,70</rect>
+                <rect>64,55,127,109</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -222,13 +198,15 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>58,61,115,122</rect>
+                <rect>205,39,410,77</rect>
                 <key>scale9Paddings</key>
-                <rect>58,61,115,122</rect>
+                <rect>205,39,410,77</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">cursor.png</key>
+            <key type="filename">btn_shop_def.png</key>
+            <key type="filename">btn_shop_press.png</key>
+            <key type="filename">panel_lvl.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -237,13 +215,14 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>15,15,30,30</rect>
+                <rect>80,42,159,84</rect>
                 <key>scale9Paddings</key>
-                <rect>15,15,30,30</rect>
+                <rect>80,42,159,84</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">lbl_block.png</key>
+            <key type="filename">gel_def.png</key>
+            <key type="filename">gel_press.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -252,13 +231,14 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>20,26,39,51</rect>
+                <rect>107,35,213,70</rect>
                 <key>scale9Paddings</key>
-                <rect>20,26,39,51</rect>
+                <rect>107,35,213,70</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">lvl_item.png</key>
+            <key type="filename">nafta_def.png</key>
+            <key type="filename">nafta_press.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -267,14 +247,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>42,43,83,87</rect>
+                <rect>106,35,213,70</rect>
                 <key>scale9Paddings</key>
-                <rect>42,43,83,87</rect>
+                <rect>106,35,213,70</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">play_def.png</key>
-            <key type="filename">play_press.png</key>
+            <key type="filename">panel_balance.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -283,55 +262,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>218,61,436,122</rect>
+                <rect>219,32,438,63</rect>
                 <key>scale9Paddings</key>
-                <rect>218,61,436,122</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">record.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>24,24,48,48</rect>
-                <key>scale9Paddings</key>
-                <rect>24,24,48,48</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">sett.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>23,24,45,48</rect>
-                <key>scale9Paddings</key>
-                <rect>23,24,45,48</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">vibro_check.png</key>
-            <key type="filename">vibro_def.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,16,31,31</rect>
-                <key>scale9Paddings</key>
-                <rect>16,16,31,31</rect>
+                <rect>219,32,438,63</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

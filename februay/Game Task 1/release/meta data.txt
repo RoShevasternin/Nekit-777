@@ -1,5 +1,5 @@
-alias: ---
-pass:  ---
+alias: g6sajdGHASdghvwe
+pass:  kas90asndHsdhbn
 
 policy: ---
 terms: ---

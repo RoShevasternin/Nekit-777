@@ -1,0 +1,82 @@
+all.png
+size: 1992, 498
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+barel
+  rotate: false
+  xy: 2, 2
+  size: 255, 219
+  orig: 255, 219
+  offset: 0, 0
+  index: -1
+btn_def
+  rotate: false
+  xy: 1285, 223
+  size: 705, 131
+  orig: 705, 131
+  offset: 0, 0
+  index: -1
+btn_press
+  rotate: false
+  xy: 2, 365
+  size: 705, 131
+  orig: 705, 131
+  offset: 0, 0
+  index: -1
+btn_shop_def
+  rotate: false
+  xy: 259, 2
+  size: 318, 168
+  orig: 318, 168
+  offset: 0, 0
+  index: -1
+btn_shop_press
+  rotate: false
+  xy: 579, 2
+  size: 318, 168
+  orig: 318, 168
+  offset: 0, 0
+  index: -1
+gel_def
+  rotate: false
+  xy: 429, 223
+  size: 426, 140
+  orig: 426, 140
+  offset: 0, 0
+  index: -1
+gel_press
+  rotate: false
+  xy: 857, 223
+  size: 426, 140
+  orig: 426, 140
+  offset: 0, 0
+  index: -1
+nafta_def
+  rotate: false
+  xy: 1219, 2
+  size: 425, 140
+  orig: 425, 140
+  offset: 0, 0
+  index: -1
+nafta_press
+  rotate: false
+  xy: 2, 223
+  size: 425, 140
+  orig: 425, 140
+  offset: 0, 0
+  index: -1
+panel_balance
+  rotate: false
+  xy: 709, 365
+  size: 876, 126
+  orig: 876, 126
+  offset: 0, 0
+  index: -1
+panel_lvl
+  rotate: false
+  xy: 899, 2
+  size: 318, 168
+  orig: 318, 168
+  offset: 0, 0
+  index: -1
