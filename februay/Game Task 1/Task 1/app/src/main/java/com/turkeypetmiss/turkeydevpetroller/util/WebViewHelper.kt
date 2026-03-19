@@ -213,7 +213,7 @@ class WebViewHelper(val activity: MainActivity) {
             isRedirectToGame = false
 
             when {
-                url.contains("https://gotogame") -> {
+                url.contains("https://default") -> {
                     log("contains: CLOSE go to Game")
                     isRedirectToGame = true
                     blockRedirect()
